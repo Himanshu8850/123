@@ -1,0 +1,140 @@
+/* Overall container styling */
+.containsmap {
+  display: flex;
+  justify-content: space-between;
+}
+.app-container {
+  max-width: 50%;
+  padding: 20px;
+  background-color: #f4f7fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Main title styling */
+.main-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #343a40;
+  margin-bottom: 30px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Form group styling */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Label styling */
+.form-label {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #495057;
+  margin-bottom: 10px;
+}
+
+/* Search box styling */
+.search-box {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+/* Datepicker styling */
+.datepicker {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+/* Activity options styling */
+.activity-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.activity-label {
+  font-size: 1rem;
+  color: #495057;
+}
+
+.activity-label input {
+  margin-right: 5px;
+}
+
+/* Budget slider styling */
+.budget-slider {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.budget-values {
+  text-align: right;
+  font-size: 1rem;
+  color: #495057;
+  margin-top: 5px;
+}
+
+/* People input styling */
+.people-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+.people-input-btn:hover {
+  background-color: #ff0000;
+}
+
+/* Create Trip button styling */
+.create-trip-btn {
+  width: 100%;
+  padding: 15px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.create-trip-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Loading overlay styling */
+.loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.loading-content {
+  text-align: center;
+}
+
+.loading-image {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.loading-text {
+  font-size: 1.5rem;
+  color: #495057;
+}

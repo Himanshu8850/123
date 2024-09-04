@@ -1,0 +1,85 @@
+.hotels-section {
+  width: 50vw;
+  max-width: 1000px;
+  margin: auto;
+  margin: 0;
+}
+.hotels-section h2 {
+  background-color: #009dff;
+  color: white;
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: center;
+  border: 3px solid black;
+  margin: 0;
+}
+.hotel-list {
+  max-height: 91vh; /* Set a fixed height */
+  overflow-y: scroll; /* Enable vertical scrolling */
+  padding: 10px;
+  border: 3px solid #000000; /* Optional: Add a border */
+  border-radius: 5px; /* Optional: Add rounded corners */
+  width: 100%;
+  /* margin: 0; */
+}
+
+.budget {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 1000;
+  background-color: rgb(168, 255, 165);
+  /* width: 500px;*/
+  border: 1px solid black;
+  align-items: center;
+  height: 70px;
+  color: #333;
+}
+
+.hotel-popup {
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  width: 200px;
+}
+
+.hotel-popup h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #3a7bd5;
+  margin-bottom: 5px;
+}
+
+.hotel-popup p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.hotel-popup a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #3a7bd5;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.hotel-popup a:hover {
+  background-color: #2e6cb8;
+}
+
+.hotel-list::-webkit-scrollbar {
+  width: 8px; /* Customize scrollbar width */
+}
+
+.hotel-list::-webkit-scrollbar-thumb {
+  background-color: #888; /* Customize scrollbar color */
+  border-radius: 10px; /* Customize scrollbar shape */
+}
+
+.hotel-list::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Change color on hover */
+}

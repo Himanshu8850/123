@@ -1,0 +1,53 @@
+{
+  "3star": [
+    {
+      "name": "The Taj Mahal Palace",
+      "image": "https://www.tajhotels.com/content/dam/taj/mumbai/taj-mahal-palace/taj-mahal-palace-mumbai-luxury-hotel-taj-hotels-resorts-palaces-001-hero-mobile-1440x900.jpg",
+      "price": 10000
+    },
+    {
+      "name": "The Oberoi, Mumbai",
+      "image": "https://www.oberoihotels.com/hotels-in-mumbai/the-oberoi-mumbai/images/the-oberoi-mumbai-exterior-1.jpg",
+      "price": 9000
+    },
+    {
+      "name": "The Trident, Nariman Point",
+      "image": "https://www.tridenthotels.com/content/dam/taj/tridenthotels/nariman-point-mumbai/tridenthotels-nariman-point-mumbai-luxury-hotel-taj-hotels-resorts-palaces-001-hero-mobile-1440x900.jpg",
+      "price": 8000
+    }
+  ],
+  "4star": [
+    {
+      "name": "The Leela Palace Mumbai",
+      "image": "https://www.theleela.com/mumbai/the-leela-palace-mumbai/images/exterior/the-leela-palace-mumbai-exterior-1.jpg",
+      "price": 12000
+    },
+    {
+      "name": "The St. Regis Mumbai",
+      "image": "https://www.marriott.com/hotels/hotel-photos/bomsr-the-st-regis-mumbai/exterior/",
+      "price": 11000
+    },
+    {
+      "name": "The JW Marriott Mumbai Sahar",
+      "image": "https://www.marriott.com/hotels/hotel-photos/bombsa-jw-marriott-mumbai-sahar/exterior/",
+      "price": 10000
+    }
+  ],
+  "5star": [
+    {
+      "name": "The Taj Lands End",
+      "image": "https://www.tajhotels.com/content/dam/taj/mumbai/taj-lands-end/taj-lands-end-mumbai-luxury-hotel-taj-hotels-resorts-palaces-001-hero-mobile-1440x900.jpg",
+      "price": 15000
+    },
+    {
+      "name": "The Four Seasons Hotel Mumbai",
+      "image": "https://www.fourseasons.com/mumbai/about/hotel-fact-sheet/",
+      "price": 14000
+    },
+    {
+      "name": "The Oberoi Grand Mumbai",
+      "image": "https://www.oberoihotels.com/hotels-in-mumbai/the-oberoi-grand-mumbai/images/the-oberoi-grand-mumbai-exterior-1.jpg",
+      "price": 13000
+    }
+  ]
+}
